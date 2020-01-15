@@ -79,9 +79,7 @@ button,div{
  header {
 	 margin: 24px;
  }
-nav {
-	
-}
+
   nav a {
 	  margin:2%;
 	  color:grey;
@@ -108,13 +106,13 @@ nav {
   }
   
 .header-info-container{
-	padding: 3%;
+	padding: 4%;
 	margin-left: 2%;
 }
 
   .header-info img {
-	  width: 33%;
-	 
+	  width: 38%;
+	margin-top: 4px;
   }
 
   .tagline-container {
@@ -147,7 +145,40 @@ nav {
 	 margin-left: 2%;
  }
 
- 
+.middle-img{
+	width: 100%;
+	margin: auto;
+}
+
+ /* content-2 styles */
+
+  .content-container {
+	  width: 100%;
+	  margin-left:1%;
+  }
+ .services-info,
+ .product-info,
+ .vision-info {
+	 width: 32%;
+	 display: inline-block;
+	 margin-right: 4px;
+	 padding: 12px;
+ }
+
+ .contact {
+	 padding: 12px;
+	 line-height: 1.5;
+ }
+
+  footer div {
+	  width: 33%;
+	  margin: auto;
+  }
+ .copyright {
+	padding: 12px;
+	font-size: small;
+	margin: 2%;
+ }
 
  
   
