@@ -65,8 +65,50 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-nav,section,a, span,
-button{
+ nav,section,a, span,
+button,div{
      border: 1px solid red; 
+  } 
+
+  .main-wrapper {
+	  max-width: 680px;
+	  margin: 0 auto;
+  }
+
+ header {
+	 margin: 24px;
+ }
+nav {
+	
+}
+  nav a {
+	  margin:2%;
+	  color:grey;
+	  text-decoration: none;
+  }
+
+  nav img {
+	  width: 18%;
+	  margin: auto;
+  }
+
+  h1 {
+	  font-size: 36px;
+  }
+
+
+
+  section div{
+	  display: inline-block;
+  }
+
+  .header-info img {
+	  width: 20%;
+	  margin:2% 5%;
+  }
+
+  .tagline {
+	  width: 25%;
+	  text-align: center;
+	  margin: 25% auto;
   }
