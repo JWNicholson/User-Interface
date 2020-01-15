@@ -97,11 +97,11 @@ nav {
 	  font-size: 36px;
   }
 
-/* Content styles */
+
 
   section div{
-	  display: inline-block;
-  }
+	display: inline-block;
+}
 
   .header-info {
 	  padding: 2%;
@@ -128,5 +128,26 @@ nav {
 	border: 1px solid black;
 	width: 65%;
  }
+
+ /* Content styles */
+
+ .content-1 {
+	 padding: 0;
+		
+ }
+
+ .content-1 div{
+	 width: 49%;
+	 display: inline-block;
+	 padding: 2%;
+	 margin: 0 auto;
+ }
 	 
+ .content-info {
+	 margin-left: 2%;
+ }
+
+ 
+
+ 
   
