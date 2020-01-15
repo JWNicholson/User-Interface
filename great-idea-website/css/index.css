@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+ /* nav,section,a, span,
+button,div{
+     border: 1px solid red; 
+  }  */
+
+  .main-wrapper {
+	  max-width: 880px;
+	  margin: 0 auto;
+  }
+
+  /* Header styles */
+ header {
+	 margin: 24px;
+ }
+
+ nav{
+	 background: yellowgreen;
+	 height: 50px;
+	
+	 padding: 4px;
+	 position:fixed;
+	 top:0;
+ }
+
+  nav a {
+	  margin-right:18px;
+	  color:whitesmoke;
+	  text-decoration: none;
+	  padding: 12px;
+  }
+
+  nav a:hover{
+	  color:fuchsia;
+  }
+
+  nav img {
+	  width: 18%;
+	 margin-top: 8px;
+	
+  }
+
+  h1 {
+	  font-size: 38px;
+  }
+
+  section div{
+	display: inline-block;
+}
+
+  .header-info {
+	  padding: 2%;
+  }
+  
+.header-info-container{
+	padding:2%;
+	margin-left: 2%;
+}
+
+  .header-info img {
+	  width: 40%;
+	margin-top: 4px;
+  }
+
+  .tagline-container {
+	  width: 43%;
+	  text-align: center;
+	  margin-left: 10%;
+  }
+
+ .header-cta {
+	background: transparent;
+	border: 1px solid black;
+	width: 65%;
+ }
+
+.header-cta:hover {
+	background-color: fuchsia;
+	color:whitesmoke;
+	transform: scale(1.5);
+}
+
+ /* Content styles */
+
+ .content-1 {
+	 padding: 0;
+		
+ }
+
+ .content-1 div{
+	 width: 49%;
+	 display: inline-block;
+	 padding: 2%;
+	 margin: 0 auto;
+ }
+	 
+ .content-info {
+	 margin-left: 2%;
+ }
+
+.middle-img{
+	width: 100%;
+}
+
+ /* content-2 styles */
+
+  .content-container {
+	  width: 100%;
+	  margin-left:1%;
+  }
+ .services-info,
+ .product-info,
+ .vision-info {
+	 width: 32%;
+	 display: inline-block;
+	 margin-right: 4px;
+	 padding: 12px;
+ }
+
+ .contact {
+	 padding: 12px;
+	 line-height: 1.5;
+ }
+
+  footer div {
+	  width: 33%;
+	  margin: auto;
+  }
+ .copyright {
+	padding: 12px;
+	font-size: small;
+	margin: 2%;
+ }
+
+ 
+  
