@@ -75,6 +75,7 @@ button,div{
 	  margin: 0 auto;
   }
 
+  /* Header styles */
  header {
 	 margin: 24px;
  }
@@ -96,19 +97,36 @@ nav {
 	  font-size: 36px;
   }
 
-
+/* Content styles */
 
   section div{
 	  display: inline-block;
   }
 
+  .header-info {
+	  padding: 2%;
+  }
+  
+.header-info-container{
+	padding: 3%;
+	margin-left: 2%;
+}
+
   .header-info img {
-	  width: 20%;
-	  margin:2% 5%;
+	  width: 33%;
+	 
   }
 
-  .tagline {
-	  width: 25%;
+  .tagline-container {
+	  width: 33%;
 	  text-align: center;
-	  margin: 25% auto;
+	  margin: 10%;
   }
+
+ .header-cta {
+	background: transparent;
+	border: 1px solid black;
+	width: 65%;
+ }
+	 
+  
